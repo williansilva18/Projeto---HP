@@ -1,86 +1,81 @@
-{
-    margin: 0;
-    padding: 0;   
- }
+ {
+  margin: 0;
+  padding: 0;
+}
 
-  .header{
-    display: flex;
- }
+.header {
+  display: flex;
+}
 /* Sessão do MENU */
-.menu{
-    list-style: none;
-    padding: 30px;
-    color: white;
-    display: flex;
-    gap: 30px;
-
+.menu__item {
+  list-style: none;
+  padding: 30px;
+  color: white;
+  display: flex;
+  gap: 30px;
+  margin-left: 50px;
 }
 
 /* Sessão PRINCIPAL */
-.principal{
-    background-color: black;
-  
+.principal {
+  background-color: black;
 }
 
 /* Sessão da imagem inicia de CAPA */
-.imgCapa{
-    width: 1440px;
-    height: 550px
+.imgCapa {
+  width: 1440px;
+  height: 550px;
 }
 
-.blocoTextoInicial{
-    position: relative;
+.blocoTextoInicial {
+  position: relative;
 }
 
-.blocoTextoInicial .TextoInicial{
-    width: 1440px; 
-    position: relative; 
-    color: white; 
-    background: black(125, 209, 85);
-    border-radius: 2px; 
-    overflow: hidden; 
-    border-left: 40.50px black solid; 
-    border-top: 0.50px black solid; 
-    border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid;
-    font-family: Wizard World;
+.blocoTextoInicial .TextoInicial {
+  width: 1440px;
+  position: relative;
+  color: white;
+  background: black(125, 209, 85);
+  border-radius: 2px;
+  overflow: hidden;
+  border-left: 40.5px black solid;
+  border-top: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid;
+  font-family: Wizard World;
 }
 
-.TextoInicial2{
-    width: 338px; 
-    height: 40.60px; 
-    left: 365px; 
-    top: 30px; 
-    position: absolute; 
-    color: white; 
-    font-size: 40px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
-    word-wrap: break-word;
-       
+.TextoInicial2 {
+  width: 338px;
+  height: 40.6px;
+  left: 365px;
+  top: 30px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
 }
 
-.subtituloTextoInicial{
-    width: 1440px; 
-    color: white; 
-    font-family: Wizard World; 
-    font-weight: 100; 
-    font-size: 22px;
-    justify-content: center;
-    text-align: center;
-   
-    
+.subtituloTextoInicial {
+  width: 1440px;
+  color: white;
+  font-family: Wizard World;
+  font-weight: 100;
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Sessão do logo HARRY POTTER */
-.logoHP{
-    margin-left: 15px; 
-    margin-top: 20px;
-    width:233px;
-    height:65px;
+.logoHP {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 233px;
+  height: 65px;
 }
-
 
 /*h5{
     display: flex;
@@ -91,58 +86,65 @@
 }
 */
 
-a{
-    text-decoration: none !important;
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  color:  #917a50;
+  ;
+}
+
+a {
     color: #917A50;
 }
 
-a:hover{
-       color: white;
+a:hover {
+    color: white;
 }
 
-  .TextoInicial::before{
-    content: "« ";
-  color: #917A50 ;
-  }
+.TextoInicial::before {
+  content: "« ";
+  color: #917a50;
+}
 
-  .TextoInicial::after{
-    content: " »";
-  color: #917A50 ;
-  }
+.TextoInicial::after {
+  content: " »";
+  color: #917a50;
+}
 
 .TextoInicial {
-    animation-duration: 4s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite; 
-
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
- }
- 
- .subtituloTextoInicial {
-    background-image: linear-gradient(to right,#1d1c1b, black);
- }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
- 
+.subtituloTextoInicial {
+  background-image: linear-gradient(to right, #1d1c1b, black);
+}
 
 /* Sessão do restaurante VASSOURA QUEBRADA */
-.blocoVassouraQuebrada{
-    width: 1440px; 
-    height: 270px; 
-    position: relative; 
-    background: black(148, 78, 78);
-    border-radius: 2px; 
-    overflow: hidden; 
-    border-left: 0.50px black solid; 
-    border-top: 0.50px black solid; 
-    border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+.blocoVassouraQuebrada {
+  width: 1440px;
+  height: 270px;
+  position: relative;
+  background: black(148, 78, 78);
+  border-radius: 2px;
+  overflow: hidden;
+  border-left: 0.5px black solid;
+  border-top: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid
+    "
     }
 
     .imgVQ{
@@ -178,24 +180,20 @@ a:hover{
          font-family: Wizard World; 
          font-weight: 400; 
          line-height: 35px; 
-         word-wrap: break-word"
-     }
-     
-     .subtituloDescritivoVassouraQuebrada{
-         color: white; 
-         font-family: sans-serif;
-         font-weight: 400; 
-         line-height: 30px; 
-         word-wrap: break-word;
-         font-size: 19px;
-         line-height: 20.50px; 
-         word-wrap: break-word"
-     }
-     
-.VejaMaisVQ:hover {
-   /* text-align: left */
-   color: white;
-    }
+         word-wrap: break-word";
+}
+
+.subtituloDescritivoVassouraQuebrada {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 20.5px;
+  word-wrap: break-word;
+}
+
 
 /* Sessão do restaurante MAGIA E BRUXARIA */
 .blocoMagiaBruxaria{
@@ -208,43 +206,44 @@ a:hover{
     border-left: 0.50px black solid; 
     border-top: 0.50px black solid; 
     border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+    border-bottom: 0.50px black solid";
 }
 
-.imgMB{
-    width: 300px; 
-    height: 255.80px; 
-    right: 22px; 
-    top: 21px; 
-    position: absolute;
+.imgMB {
+  width: 300px;
+  height: 255.8px;
+  right: 22px;
+  top: 21px;
+  position: absolute;
 }
 
-.tituloMagiaBruxaria{
-    width: 338px; 
-    height: 40.60px; 
-    left: 40px; 
-    top: 0px; 
-    position: absolute; 
-    color: white; 
-    font-size: 32px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
-    word-wrap: break-word;
+.tituloMagiaBruxaria {
+  width: 338px;
+  height: 40.6px;
+  left: 40px;
+  top: 0px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
 }
 
-.tituloDescritivoMagiaBruxaria{
-    width: 1044px; 
-    height: 184px; 
-    left: 40px; 
-    top: 68px; 
-    position: absolute;
-    color: #917A50; 
-    font-size: 23px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 35px; 
-    word-wrap: break-word"
+.tituloDescritivoMagiaBruxaria {
+  width: 1044px;
+  height: 184px;
+  left: 40px;
+  top: 68px;
+  position: absolute;
+  color: #917a50;
+  font-size: 23px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 35px;
+  word-wrap: break-word
+    "
 }
 
 .subtituloDescritivoMagiaBruxaria{
@@ -255,25 +254,26 @@ a:hover{
     word-wrap: break-word;
     font-size: 19px;
     line-height: 20.50px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.VejaMaisMB{
-    text-align: left
+.VejaMaisMB {
+  text-align: left;
 }
 
 /* Sessão do restaurante BECO HEXAGONAL */
-.blocoBecoHexagonal{
-    width: 1440px; 
-    height: 300px; 
-    position: relative; 
-    background: black;
-    border-radius: 2px; 
-    overflow: hidden; 
-    border-left: 0.50px black solid; 
-    border-top: 0.50px black solid; 
-    border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+.blocoBecoHexagonal {
+  width: 1440px;
+  height: 300px;
+  position: relative;
+  background: black;
+  border-radius: 2px;
+  overflow: hidden;
+  border-left: 0.5px black solid;
+  border-top: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid
+    "
 }
 
 .imgBH{
@@ -309,18 +309,19 @@ a:hover{
     font-family: Wizard World; 
     font-weight: 400; 
     line-height: 35px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.subtituloDescritivoBH{
-    color: white; 
-    font-family: sans-serif;
-    font-weight: 400; 
-    line-height: 30px; 
-    word-wrap: break-word;
-    font-size: 19px;
-    line-height: 20.50px; 
-    word-wrap: break-word"
+.subtituloDescritivoBH {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 20.5px;
+  word-wrap: break-word
+    "
 }
 
 .VejaMaisBE{
@@ -338,43 +339,44 @@ a:hover{
     border-left: 0.50px black solid; 
     border-top: 0.50px black solid; 
     border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+    border-bottom: 0.50px black solid";
 }
 
-.imgGriffinCafe{
-    width: 300px; 
-    height: 254.80px; 
-    right: 25px; 
-    top: 24px; 
-    position: absolute;
- }
-
- .tituloGriffinCafe{
-    width: 338px; 
-    height: 40.60px; 
-    right: 1059px; 
-    top: 0px; 
-    position: absolute; 
-    color: white; 
-    font-size: 32px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
-    word-wrap: break-word;
+.imgGriffinCafe {
+  width: 300px;
+  height: 254.8px;
+  right: 25px;
+  top: 24px;
+  position: absolute;
 }
 
-.tituloDescritivoGriffinCafe{
-    width: 1044px; 
-    height: 184px; 
-    right: 355px; 
-    top: 77px; 
-    position: absolute;
-    color: #917A50; 
-    font-size: 23px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 35px; 
-    word-wrap: break-word"
+.tituloGriffinCafe {
+  width: 338px;
+  height: 40.6px;
+  right: 1059px;
+  top: 0px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+.tituloDescritivoGriffinCafe {
+  width: 1044px;
+  height: 184px;
+  right: 355px;
+  top: 77px;
+  position: absolute;
+  color: #917a50;
+  font-size: 23px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 35px;
+  word-wrap: break-word
+    "
 }
 
 .subtituloDescritivoGriffinCafe{
@@ -385,25 +387,26 @@ a:hover{
     word-wrap: break-word;
     font-size: 19px;
     line-height: 20.50px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.VejaMaisGC{
-    text-align: left 
+.VejaMaisGC {
+  text-align: left;
 }
 
 /* Sessão do restaurante VARINHA MÁGICA */
-.blocoVarinhaMagica{
-    width: 1440px; 
-    height: 300px; 
-    position: relative; 
-    background: black;
-    border-radius: 2px; 
-    overflow: hidden; 
-    border-left: 0.50px black solid; 
-    border-top: 0.50px black solid; 
-    border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+.blocoVarinhaMagica {
+  width: 1440px;
+  height: 300px;
+  position: relative;
+  background: black;
+  border-radius: 2px;
+  overflow: hidden;
+  border-left: 0.5px black solid;
+  border-top: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid
+    "
 }
 
 .imgVarinhaMagica{
@@ -439,18 +442,19 @@ a:hover{
     font-family: Wizard World; 
     font-weight: 400; 
     line-height: 35px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.subtituloDescritivoVarinhaMagica{
-    color: white; 
-    font-family: sans-serif; 
-    font-weight: 400; 
-    line-height: 30px; 
-    word-wrap: break-word;
-    font-size: 19px;
-    line-height: 20.50px; 
-    word-wrap: break-word"
+.subtituloDescritivoVarinhaMagica {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 20.5px;
+  word-wrap: break-word
+    "
 }
 
 .VejaMaisVM{
@@ -468,43 +472,44 @@ a:hover{
     border-left: 0.50px black solid; 
     border-top: 0.50px black solid; 
     border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+    border-bottom: 0.50px black solid";
 }
 
-.imgCasaBruxos{
-    width: 300px; 
-    height: 254.80px; 
-    right: 30px; 
-    top: 24px; 
-    position: absolute;
- }
-
- .tituloCasaBruxos{
-    width: 338px; 
-    height: 40.60px; 
-    right: 1068px; 
-    top: -3px; 
-    position: absolute; 
-    color: white; 
-    font-size: 32px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
-    word-wrap: break-word;
+.imgCasaBruxos {
+  width: 300px;
+  height: 254.8px;
+  right: 30px;
+  top: 24px;
+  position: absolute;
 }
 
-.tituloDescritivoCasaBruxos{
-    width: 1044px; 
-    height: 184px; 
-    right: 365px; 
-    top: 68px; 
-    position: absolute;
-    color: #917A50; 
-    font-size: 21px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 35px; 
-    word-wrap: break-word"
+.tituloCasaBruxos {
+  width: 338px;
+  height: 40.6px;
+  right: 1068px;
+  top: -3px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+.tituloDescritivoCasaBruxos {
+  width: 1044px;
+  height: 184px;
+  right: 365px;
+  top: 68px;
+  position: absolute;
+  color: #917a50;
+  font-size: 21px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 35px;
+  word-wrap: break-word
+    "
 }
 
 .subtituloDescritivoCasaBruxos{
@@ -515,26 +520,26 @@ a:hover{
     word-wrap: break-word;
     font-size: 18px;
     line-height: 27.50px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.VejaMaisCB{
-    text-align: left 
-
+.VejaMaisCB {
+  text-align: left;
 }
 
 /* Sessão do restaurante AS TRÊS VASSOURAS */
-.blocoTresVassouras{
-    width: 1440px; 
-    height: 300px; 
-    position: relative; 
-    background: black;
-    border-radius: 2px; 
-    overflow: hidden; 
-    border-left: 0.50px black solid; 
-    border-top: 0.50px black solid; 
-    border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+.blocoTresVassouras {
+  width: 1440px;
+  height: 300px;
+  position: relative;
+  background: black;
+  border-radius: 2px;
+  overflow: hidden;
+  border-left: 0.5px black solid;
+  border-top: 0.5px black solid;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid
+    "
 }
 
 .imgTV{
@@ -570,18 +575,19 @@ a:hover{
     font-family: Wizard World; 
     font-weight: 400; 
     line-height: 35px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.subtituloDescritivoTresVassouras{
-    color: white; 
-    font-family: sans-serif; 
-    font-weight: 400; 
-    line-height: 30px; 
-    word-wrap: break-word;
-    font-size: 19px;
-    line-height: 20.50px; 
-    word-wrap: break-word"
+.subtituloDescritivoTresVassouras {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 20.5px;
+  word-wrap: break-word
+    "
 }
 
 .VejaMaisTV{
@@ -599,43 +605,44 @@ a:hover{
     border-left: 0.50px black solid; 
     border-top: 0.50px black solid; 
     border-right: 0.50px black solid; 
-    border-bottom: 0.50px black solid"
+    border-bottom: 0.50px black solid";
 }
 
-.imgCaldeiraoFurado{
-    width: 300px; 
-    height: 254.80px; 
-    right: 30px; 
-    top: 22px; 
-    position: absolute;
- }
-
- .tituloCaldeiraoFurado{
-    width: 338px; 
-    height: 40.60px; 
-    left: 30px; 
-    top: -3px; 
-    position: absolute; 
-    color: white; 
-    font-size: 32px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
-    word-wrap: break-word;
+.imgCaldeiraoFurado {
+  width: 300px;
+  height: 254.8px;
+  right: 30px;
+  top: 22px;
+  position: absolute;
 }
 
-.tituloDescritivoCaldeiraoFurado{
-    width: 1044px; 
-    height: 184px; 
-    right: 365px; 
-    top: 68px; 
-    position: absolute;
-    color: #917A50; 
-    font-size: 23px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 35px; 
-    word-wrap: break-word"
+.tituloCaldeiraoFurado {
+  width: 338px;
+  height: 40.6px;
+  left: 30px;
+  top: -3px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+.tituloDescritivoCaldeiraoFurado {
+  width: 1044px;
+  height: 184px;
+  right: 365px;
+  top: 68px;
+  position: absolute;
+  color: #917a50;
+  font-size: 23px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 35px;
+  word-wrap: break-word
+    "
 }
 
 .subtituloDescritivoCaldeiraoFurado{
@@ -646,64 +653,59 @@ a:hover{
     word-wrap: break-word;
     font-size: 18px;
     line-height: 27.50px; 
-    word-wrap: break-word"
+    word-wrap: break-word";
 }
 
-.VejaMaisCF{
-    text-align: left
-
+.VejaMaisCF {
+  text-align: left;
 }
 
 .navFooter {
-    width: 1440px;
-    left: 0px;
-    top: 3353px;
-    position: absolute;
-    display: block;
+  width: 1440px;
+  left: 0px;
+  top: 3353px;
+  position: absolute;
+  display: block;
 }
 
 .logoHP-Footer {
-    width: 200px;
-    height: 60px;
-    left: 96px;
-    top: 14px;
-    position: absolute;
-    margin-left: -57px;
-    margin-top: -8px;
+  width: 200px;
+  height: 60px;
+  left: 96px;
+  top: 14px;
+  position: absolute;
+  margin-left: -57px;
+  margin-top: -8px;
 }
 
 .footerRodape {
-    font-size: 15px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 22.50px;
-    padding-top: 36px;
-    padding-bottom: 8px;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
-    list-style: none;
-    display: flex;
-    
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 22.5px;
+  padding-top: 36px;
+  padding-bottom: 8px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+  display: flex;
 }
 
 .copyright {
-    background: black;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: white;
-    text-align: center;
+  background: black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
 }
 
 img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
-.noLink{
-    text-decoration: none !important;
-    color: white;
+.noLink {
+  text-decoration: none !important;
+  color: white;
 }
-
-
-
